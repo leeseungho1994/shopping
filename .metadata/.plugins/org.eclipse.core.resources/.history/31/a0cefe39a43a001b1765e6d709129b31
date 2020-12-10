@@ -1,0 +1,28 @@
+package com.care.shopping.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@MapperScan(basePackages = {"com.care.root.boarddao"})
+public class ShoppingConfig {
+	@Bean
+	public DriverManagerDataSource dataSource() {
+		DriverManagerDataSource ds = new DriverManagerDataSource();
+		ds.setDriverClassName("oracle.jdbc.driver.OracleDriver");
+		ds.setUrl("jdbc:oracle:thin:@210.108.48.214:1521:xe");
+		ds.setUsername("leeseungho");
+		ds.setPassword("1234");
+		return ds;
+	}
+	@Bean
+	public SqlSessionFactory sqlSessionFactory() throws Exception {
+		SqlSessionFactoryBean ssf = new SqlSessionFactoryBean();
+		ssf.setDataSource(dataSource());
+		return ssf.getObject();
+	}
+	@Bean
+	public SqlSession sqlSession() throws Exception{
+		return new SqlSessionTemplate(sqlSessionFactory());
+	}
+}

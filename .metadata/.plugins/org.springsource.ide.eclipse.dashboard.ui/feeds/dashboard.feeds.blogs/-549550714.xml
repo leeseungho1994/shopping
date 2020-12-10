@@ -5,7 +5,69 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-12-09T16:07:40Z</updated>
+  <updated>2020-12-10T13:15:35Z</updated>
+  <entry>
+    <title>Spring Vault 2.3.0 RC1 available</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/12/10/spring-vault-2-3-0-rc1-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Paluch</name>
+    </author>
+    <id>tag:spring.io,2020-12-10:4294</id>
+    <updated>2020-12-10T13:15:35Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community, I&amp;#8217;d like to announce the availability of the first Spring Vault release candidate &lt;code&gt;2.3.0-RC1&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This release contains a series of changes:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="ulist"&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Updated &lt;code&gt;SecretLeaseContainer&lt;/code&gt; endpoints using now &lt;code&gt;/sys/leases&lt;/code&gt; instead of &lt;code&gt;/sys/revoke&lt;/code&gt; and &lt;code&gt;/sys/renew&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Introduction of &lt;code&gt;AuthenticationStepsOperator&lt;/code&gt; which allows non-blocking access to &lt;code&gt;Resource&lt;/code&gt;. This change also introduces a reloading capability for authentication mechanisms for PCF and Kubernetes authentication to obtain the latest credentials when attempting a Vault login.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Support for KV Patch in &lt;code&gt;VaultTemplate&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Upgrade to Spring Framework 5.3, Spring Data 2020.0, and Project Reactor 2020.0&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For a complete list of changes, see the &lt;a href="https://github.com/spring-projects/spring-vault/releases/tag/2.3.0-RC1"&gt;&lt;code&gt;2.3.0-RC1&lt;/code&gt; changelog&lt;/a&gt;. We are working towards a GA release&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/releases/tag/2.3.0-RC1"&gt;Release &lt;code&gt;2.3.0-RC1&lt;/code&gt; on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-vault/docs/2.3.0-RC1/reference/html/"&gt;Documentation for &lt;code&gt;2.3.0-RC1&lt;/code&gt;&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Vault 2.2.3.RELEASE available</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/12/10/spring-vault-2-2-3-release-available" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mark Paluch</name>
+    </author>
+    <id>tag:spring.io,2020-12-10:4293</id>
+    <updated>2020-12-10T13:07:19Z</updated>
+    <content type="html">&lt;div class="paragraph"&gt;
+&lt;p&gt;On behalf of the community, I&amp;#8217;d like to announce the availability of Spring Vault service release &lt;code&gt;2.2.3.RELEASE&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;This release ships with mostly bugfixes, dependency upgrades, and selected features.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;For a complete list of changes, see the &lt;a href="https://github.com/spring-projects/spring-vault/releases/tag/2.2.3.RELEASE"&gt;2.2.3.RELEASE changelog&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="paragraph"&gt;
+&lt;p&gt;&lt;a href="http://projects.spring.io/spring-vault/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/issues"&gt;Issues&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-vault/releases/tag/2.2.3.RELEASE"&gt;Release &lt;code&gt;2.2.3.RELEASE&lt;/code&gt; on GitHub&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-vault/docs/2.2.1.RELEASE/reference/html/"&gt;Documentation for &lt;code&gt;2.2.3.RELEASE&lt;/code&gt;&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-vault"&gt;Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Data 2020.0.2, Neumann-SR6, and Moore-SR12 available</title>
     <link rel="alternate" href="https://spring.io/blog/2020/12/09/spring-data-2020-0-2-neumann-sr6-and-moore-sr12-available" />
@@ -1096,297 +1158,6 @@ By challenging our ideas, polishing our code, and leading to an integration that
     <updated>2020-11-20T04:43:52Z</updated>
     <content type="html">&lt;p&gt;Hi, Spring fans! In this episode &lt;a href="http://twitter.com/starbuxman"&gt;Josh Long (@starbuxman)&lt;/a&gt; talks to &lt;a href="http://twitter.com/tastapod"&gt;Dan North (@tastapod)&lt;/a&gt;, creator of BDD, optimizer of teams and all around legend. &lt;/p&gt;
 &lt;iframe title="Programmer, Agile coach, technologist, and troublemaker Dan North" height="122" width="100%" style="border: none;" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/media/player/vpztd-f2ce17?from=pb6admin&amp;download=1&amp;version=1&amp;auto=0&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Helvetica&amp;skin=1&amp;pfauth=&amp;btn-skin=107"&gt;&lt;/iframe&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Cloud 2020.0.0-M5 (aka Ilford) is Available</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/11/18/spring-cloud-2020-0-0-m5-aka-ilford-is-available" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Spencer Gibb</name>
-    </author>
-    <id>tag:spring.io,2020-11-18:4273</id>
-    <updated>2020-11-18T18:54:00Z</updated>
-    <content type="html">&lt;p&gt;On behalf of the community, I am pleased to announce that the Milestone 5 (M5) of the &lt;a href="https://cloud.spring.io"&gt;Spring Cloud 2020&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href="https://repo.spring.io/milestone/"&gt;Spring Milestone&lt;/a&gt; repository. You can check out the 2020 &lt;a href="https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2020.0-Release-Notes"&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#notable-changes-in-the-2020-release-train" class="anchor" name="notable-changes-in-the-2020-release-train"&gt;&lt;/a&gt;Notable Changes in the 2020 Release Train&lt;/h2&gt;
-&lt;p&gt;This release requires Spring Boot 2.4.0.&lt;/p&gt;
-&lt;p&gt;Support for OpenTelemetry was added in Sleuth.&lt;/p&gt;
-&lt;p&gt;Support for RSocket was added in Bus.&lt;/p&gt;
-&lt;p&gt;Please see &lt;a href="https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2020.0-Release-Notes#breaking-changes"&gt;the wiki&lt;/a&gt; for a list of all breaking changes in this release train.&lt;/p&gt;
-&lt;p&gt;See all of the included issues and pull requests at the &lt;a href="https://github.com/orgs/spring-cloud/projects/46"&gt;Github project&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-bus" class="anchor" name="spring-cloud-bus"&gt;&lt;/a&gt;Spring Cloud Bus&lt;/h3&gt;
-&lt;p&gt;Support for &lt;a href="https://github.com/spring-cloud/spring-cloud-bus/pull/239"&gt;RSocket&lt;/a&gt; was added via Spring Cloud Function RSocket support. This does not require Spring Cloud Stream.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-commons" class="anchor" name="spring-cloud-commons"&gt;&lt;/a&gt;Spring Cloud Commons&lt;/h3&gt;
-&lt;p&gt;Support was added for &lt;a href="https://github.com/spring-cloud/spring-cloud-commons/issues/659"&gt;retry&lt;/a&gt; in reactive Spring Cloud Loadbalancer.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-config" class="anchor" name="spring-cloud-config"&gt;&lt;/a&gt;Spring Cloud Config&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-config/issues/717"&gt;Submodule&lt;/a&gt; support was added to git Environment Repositories.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-contract" class="anchor" name="spring-cloud-contract"&gt;&lt;/a&gt;Spring Cloud Contract&lt;/h3&gt;
-&lt;p&gt;Support for handling empty lists and maps in responses was &lt;a href="https://github.com/spring-cloud/spring-cloud-contract/pull/1556"&gt;added&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-gateway" class="anchor" name="spring-cloud-gateway"&gt;&lt;/a&gt;Spring Cloud Gateway&lt;/h3&gt;
-&lt;p&gt;Token Relay support was migrated from Spring Cloud Security to &lt;a href="https://github.com/spring-cloud/spring-cloud-gateway/issues/1975"&gt;Gateway&lt;/a&gt;. Token refreshing was also added.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-kubernetes" class="anchor" name="spring-cloud-kubernetes"&gt;&lt;/a&gt;Spring Cloud Kubernetes&lt;/h3&gt;
-&lt;p&gt;A new module based on the official Kubernetes Java Client was &lt;a href="https://github.com/spring-cloud/spring-cloud-kubernetes/pull/661"&gt;added&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-netflix" class="anchor" name="spring-cloud-netflix"&gt;&lt;/a&gt;Spring Cloud Netflix&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;EurekaHealthCheckHandler&lt;/code&gt; now considers &lt;a href="https://github.com/spring-cloud/spring-cloud-netflix/pull/3903"&gt;&lt;code&gt;ReactiveHealthIndicator&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-openfeign" class="anchor" name="spring-cloud-openfeign"&gt;&lt;/a&gt;Spring Cloud Openfeign&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-cloud/spring-cloud-openfeign/issues/284"&gt;Adds the ability&lt;/a&gt; to configure client to send default headers and query parameters.&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-security" class="anchor" name="spring-cloud-security"&gt;&lt;/a&gt;Spring Cloud Security&lt;/h3&gt;
-&lt;p&gt;Token Relay support was moved to Spring Cloud Gateway (see above).&lt;/p&gt;&lt;h3&gt;&lt;a href="#spring-cloud-sleuth" class="anchor" name="spring-cloud-sleuth"&gt;&lt;/a&gt;Spring Cloud Sleuth&lt;/h3&gt;
-&lt;p&gt;Support for OpenTelemetry was &lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/issues/1497"&gt;added&lt;/a&gt;.&lt;/p&gt;
-&lt;hr/&gt;
-&lt;p&gt;The following modules were updated as part of 2020.0.0-M5:&lt;/p&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Module &lt;/th&gt;
-      &lt;th&gt;Version &lt;/th&gt;
-      &lt;th&gt;Issues&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Bus &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-bus/milestone/46?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Circuitbreaker &lt;/td&gt;
-      &lt;td&gt;2.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-circuitbreaker/milestone/6?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Cli &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Cloudfoundry &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Commons &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-commons/milestone/80?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Config &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-config/milestone/82?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Consul &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Contract &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-contract/milestone/70?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Gateway &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Kubernetes &lt;/td&gt;
-      &lt;td&gt;2.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-kubernetes/milestone/24?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Netflix &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-netflix/milestone/95?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Openfeign &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-openfeign/milestone/30?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Security &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Sleuth &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;(&lt;a href="https://github.com/spring-cloud/spring-cloud-sleuth/milestone/81?closed=1"&gt;issues&lt;/a&gt;)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Starter Build &lt;/td&gt;
-      &lt;td&gt;2020.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Vault &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Spring Cloud Zookeeper &lt;/td&gt;
-      &lt;td&gt;3.0.0-M5 &lt;/td&gt;
-      &lt;td&gt;&amp;nbsp;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;As always, we welcome feedback on &lt;a href="https://github.com/spring-cloud/"&gt;GitHub&lt;/a&gt;, on &lt;a href="https://gitter.im/spring-cloud/spring-cloud"&gt;Gitter&lt;/a&gt;, on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud"&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href="https://twitter.com/SpringCloud"&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint xml"&gt;&amp;lt;repositories&amp;gt;&#xD;
-    &amp;lt;repository&amp;gt;&#xD;
-        &amp;lt;id&amp;gt;spring-milestones&amp;lt;/id&amp;gt;&#xD;
-        &amp;lt;name&amp;gt;Spring Milestones&amp;lt;/name&amp;gt;&#xD;
-        &amp;lt;url&amp;gt;https://repo.spring.io/milestone&amp;lt;/url&amp;gt;&#xD;
-        &amp;lt;snapshots&amp;gt;&#xD;
-            &amp;lt;enabled&amp;gt;false&amp;lt;/enabled&amp;gt;&#xD;
-        &amp;lt;/snapshots&amp;gt;&#xD;
-    &amp;lt;/repository&amp;gt;&#xD;
-&amp;lt;/repositories&amp;gt;&#xD;
-&amp;lt;dependencyManagement&amp;gt;&#xD;
-    &amp;lt;dependencies&amp;gt;&#xD;
-        &amp;lt;dependency&amp;gt;&#xD;
-            &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-            &amp;lt;artifactId&amp;gt;spring-cloud-dependencies&amp;lt;/artifactId&amp;gt;&#xD;
-            &amp;lt;version&amp;gt;2020.0.0-M5&amp;lt;/version&amp;gt;&#xD;
-            &amp;lt;type&amp;gt;pom&amp;lt;/type&amp;gt;&#xD;
-            &amp;lt;scope&amp;gt;import&amp;lt;/scope&amp;gt;&#xD;
-        &amp;lt;/dependency&amp;gt;&#xD;
-    &amp;lt;/dependencies&amp;gt;&#xD;
-&amp;lt;/dependencyManagement&amp;gt;&#xD;
-&amp;lt;dependencies&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-        &amp;lt;artifactId&amp;gt;spring-cloud-starter-config&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-    &amp;lt;dependency&amp;gt;&#xD;
-        &amp;lt;groupId&amp;gt;org.springframework.cloud&amp;lt;/groupId&amp;gt;&#xD;
-        &amp;lt;artifactId&amp;gt;spring-cloud-starter-netflix-eureka-client&amp;lt;/artifactId&amp;gt;&#xD;
-    &amp;lt;/dependency&amp;gt;&#xD;
-    ...&#xD;
-&amp;lt;/dependencies&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or with Gradle:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint groovy"&gt;buildscript {&#xD;
-  dependencies {&#xD;
-    classpath &amp;quot;io.spring.gradle:dependency-management-plugin:1.0.9.RELEASE&amp;quot;&#xD;
-  }&#xD;
-}&#xD;
-&#xD;
-repositories {&#xD;
-  maven {&#xD;
-    url &amp;#39;https://repo.spring.io/milestone&amp;#39;&#xD;
-  }&#xD;
-}&#xD;
-&#xD;
-apply plugin: &amp;quot;io.spring.dependency-management&amp;quot;&#xD;
-&#xD;
-dependencyManagement {&#xD;
-  imports {&#xD;
-    mavenBom &amp;#39;org.springframework.cloud:spring-cloud-dependencies:2020.0.0-M5&amp;#39;&#xD;
-  }&#xD;
-}&#xD;
-&#xD;
-dependencies {&#xD;
-  compile &amp;#39;org.springframework.cloud:spring-cloud-starter-config&amp;#39;&#xD;
-  compile &amp;#39;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&amp;#39;&#xD;
-  //...&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Data 2020.0 - New and Noteworthy in Spring Data R2DBC 1.2</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/11/18/spring-data-2020-0-new-and-noteworthy-in-spring-data-r2dbc-1-2" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Mark Paluch</name>
-    </author>
-    <id>tag:spring.io,2020-11-05:4257</id>
-    <updated>2020-11-18T07:55:11Z</updated>
-    <content type="html">&lt;p&gt;This release is a major milestone in Spring&amp;rsquo;s R2DBC support. Spring support for R2DBC started as an experimental project two years ago to evaluate how a reactive SQL integration might look. With this release, Spring Data R2DBC underwent a major refactoring by moving several components into a dedicated &lt;code&gt;spring-r2dbc&lt;/code&gt; module and deprecating components that are provided by the Spring Framework. Besides that change, Spring Data R2DBC ships with the following most notable changes:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Add lifecycle callbacks through the &lt;code&gt;EntityCallback&lt;/code&gt; API&lt;/li&gt;
-  &lt;li&gt;Reactive auditing&lt;/li&gt;
-  &lt;li&gt;Pass-through of &lt;code&gt;enum&lt;/code&gt; values and Postgres Geo types&lt;/li&gt;
-&lt;/ul&gt;&lt;h2&gt;&lt;a href="#spring-r2dbc" class="anchor" name="spring-r2dbc"&gt;&lt;/a&gt;Spring R2DBC&lt;/h2&gt;
-&lt;p&gt;Spring Data R2DBC is now based on &lt;code&gt;spring-r2dbc&lt;/code&gt;, a new module in Spring Framework that ships with core R2DBC support, such as &lt;code&gt;DatabaseClient&lt;/code&gt;, &lt;code&gt;ConnectionFactoryInitializer&lt;/code&gt;, and &lt;code&gt;R2dbcTransactionManager&lt;/code&gt;. Those components were deprecated in favor of Spring R2DBC components and marked for removal with the next major Spring Data R2DBC release. See the &lt;a href="https://docs.spring.io/spring-data/r2dbc/docs/current/reference/html/#upgrading.1.1-1.2"&gt;migration guide&lt;/a&gt; to learn about deprecations and what replacement API to use.&lt;/p&gt;&lt;h2&gt;&lt;a href="#lifecycle-entitycallback-api" class="anchor" name="lifecycle-entitycallback-api"&gt;&lt;/a&gt;Lifecycle EntityCallback API&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://spring.io/blog/2019/10/08/what-s-new-in-spring-data-moore"&gt;Spring Data Moore introduced&lt;/a&gt; the &lt;a href="https://docs.spring.io/spring-data/commons/docs/current/api/org/springframework/data/mapping/callback/EntityCallbacks.html"&gt;&lt;code&gt;EntityCallback&lt;/code&gt; API&lt;/a&gt; to pre-process and post-process entities upon load, save, and delete operations. Entity callbacks are invoked during persistence operations and allow in-place modifications to entities and returning new object instances if an entity class is immutable.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;EntityCallback&lt;/code&gt; interfaces are reactive-enabled by returning &lt;code&gt;Publisher&amp;lt;T&amp;gt;&lt;/code&gt; where &lt;code&gt;T&lt;/code&gt; represents the entity type. Returning a publisher allows consuming the subscriber context (as is done for reactive auditing) or integrating with other reactive components that perform I/O before saving an entity or after loading one.&lt;/p&gt;
-&lt;p&gt;You can use &lt;code&gt;EntityCallback&lt;/code&gt; for all sorts of callback hooks. The following example defines a &lt;code&gt;BeforeConvertCallback&lt;/code&gt; to generate a primary key value from a H2 sequence for the &lt;code&gt;Customer&lt;/code&gt; type if its identifier is &lt;code&gt;null&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Bean  &#xD;
-BeforeConvertCallback&amp;lt;Customer&amp;gt; idGeneratingCallback(DatabaseClient databaseClient) {  &#xD;
-  &#xD;
-   return (customer, sqlIdentifier) -&amp;gt; {  &#xD;
-  &#xD;
-      if (customer.getId() == null) {  &#xD;
-  &#xD;
-         return databaseClient.sql(&amp;quot;SELECT primary_key.nextval&amp;quot;) //  &#xD;
-  .map(row -&amp;gt; row.get(0, Long.class)) //  &#xD;
-  .first() //  &#xD;
-  .map(customer::withId);  &#xD;
-      }  &#xD;
-  &#xD;
-      return Mono.just(customer);  &#xD;
-   };  &#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;You can read more about &lt;a href="https://docs.spring.io/spring-data/r2dbc/docs/current/reference/html/#r2dbc.entity-callbacks"&gt;R2DBC EntityCallbacks&lt;/a&gt; in the &lt;a href="https://docs.spring.io/spring-data/r2dbc/docs/current/reference/html/"&gt;R2DBC reference documentation&lt;/a&gt;.&lt;/p&gt;&lt;h2&gt;&lt;a href="#pass-thru-of-code-enum-code-values-and-postgres-geo-types" class="anchor" name="pass-thru-of-code-enum-code-values-and-postgres-geo-types"&gt;&lt;/a&gt;Pass-thru of &lt;code&gt;enum&lt;/code&gt; Values and Postgres Geo Types&lt;/h2&gt;
-&lt;p&gt;Postgres supports various data types, of which enumerations and Geometric types can be used directly from Spring Data R2DBC. By default, Spring Data converts &lt;code&gt;enum&lt;/code&gt; values to &lt;code&gt;String&lt;/code&gt; by using the enum&amp;rsquo;s &lt;code&gt;name()&lt;/code&gt; method to represent the enumeration value. R2DBC Postgres supports (since version 0.8.4) a specific codec that accepts Java &lt;code&gt;enum&lt;/code&gt; types and maps these onto the corresponding Postgres enum type. &lt;/p&gt;
-&lt;p&gt;Consider the following Java &lt;code&gt;enum&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;enum Color {&#xD;
-	Blue, Green, White&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Enumeration types in Postgres need to be created before using enum types:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint sql"&gt;CREATE TYPE color_enum as enum (&amp;#39;Blue&amp;#39;, &amp;#39;Green&amp;#39;, `White`);&#xD;
-&#xD;
-CREATE TABLE product (id SERIAL PRIMARY KEY, color color_enum);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Once the enum type is in place, you need to configure the driver to associate the Java enum with the corresponding Postgres enum type. This is done by using the R2DBC Postgres &lt;code&gt;EnumCodec&lt;/code&gt; builder . The resulting &lt;code&gt;CodecRegistrar&lt;/code&gt; must be registered with the connection configuration before creating a &lt;code&gt;ConnectionFactory&lt;/code&gt;:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;CodecRegistrar codecRegistrar = EnumCodec.builder().withEnum(&amp;quot;color_enum&amp;quot;, Color.class).build();&#xD;
-&#xD;
-PostgresqlConnectionConfiguration configuration = PostgresqlConnectionConfiguration.builder()&#xD;
- &#xD;
-    .codecRegistrar(codecRegistrar)&#xD;
- &#xD;
-    // additional configuration&#xD;
-    .build();
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See also the &lt;a href="https://github.com/pgjdbc/r2dbc-postgresql#postgres-enum-types"&gt;driver documentation on Postgres Enum Types&lt;/a&gt; for further reference.&lt;/p&gt;
-&lt;p&gt;Once the &lt;code&gt;ConnectionFactory&lt;/code&gt; is configured, you can configure specific &lt;code&gt;enum&lt;/code&gt; types in Spring Data to be passed-thru to the driver with their actual value instead of converting the enum value to &lt;code&gt;String&lt;/code&gt;. &lt;code&gt;R2dbcCustomConversions&lt;/code&gt; is the entry point to use when configuring simple types and their converters:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;R2dbcCustomConversions conversions = R2dbcCustomConversions.of(PostgresDialect.INSTANCE, new ColorConverter());
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now you can use the enumeration type in your domain class:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;class Product {&#xD;
-  @Id Integer id;&#xD;
-  Color color;&#xD;
-  // getter, setter, constructors omitted for brevity&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;See the reference documentation on &lt;a href="https://docs.spring.io/spring-data/r2dbc/docs/current/reference/html/#mapping.explicit.enum.converters"&gt;Overriding Enum Mapping with Explicit Converters&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In contrast to enums, using Postgres Geometric types requires no special setup since Geo types have fixed type identifiers and map to individual Geo types. Spring Data R2DBC supports the use of the following driver-specific types in your entities:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;io.r2dbc.postgresql.codec.Box&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;io.r2dbc.postgresql.codec.Circle&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;io.r2dbc.postgresql.codec.Line&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;io.r2dbc.postgresql.codec.Lseg&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;io.r2dbc.postgresql.codec.Point&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;io.r2dbc.postgresql.codec.Path&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;io.r2dbc.postgresql.codec.Polygon&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Alternatively, you can use Spring Data&amp;rsquo;s Geo Types in your domain model:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;code&gt;org.springframework.data.geo.Box&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;org.springframework.data.geo.Circle&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;org.springframework.data.geo.Point&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code&gt;org.springframework.data.geo.Polygon&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;To use Geometric types, create a table and a corresponding entity type:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint sql"&gt;CREATE TABLE venue (id SERIAL PRIMARY KEY, name VARCHAR(255), location POINT);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;class Venue {&#xD;
-  @Id Long id;&#xD;
-  String name;&#xD;
-  Point location;&#xD;
-  // getter, setter, constructors omitted for brevity&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Finally, you can use the entity in your application:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint java"&gt;R2dbcEntityTemplate template = ¡¦;&#xD;
-&#xD;
-template.insert(new Venue(null, &amp;quot;Seattle Space Needle&amp;quot;, Point.of(47.6204,-122.3491));
-&lt;/code&gt;&lt;/pre&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

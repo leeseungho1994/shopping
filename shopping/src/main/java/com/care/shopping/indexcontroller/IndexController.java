@@ -10,5 +10,12 @@ public class IndexController {
 	public String index() {
 		return "index/index";
 	}
-	
+	@RequestMapping("myPage")
+	public String myPage() {
+		return "mypage/myPage";
+	}
+	@RequestMapping("center")
+	public String center() {
+		return "center/center";
+	}
 }

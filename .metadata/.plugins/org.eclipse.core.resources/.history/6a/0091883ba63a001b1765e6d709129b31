@@ -1,0 +1,30 @@
+package com.care.shopping.indexcontroller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.care.shopping.mypageservice.MyPageService;
+
+@Controller
+public class IndexController {
+	@Autowired
+	private MyPageService mps;
+	
+	@RequestMapping("index")
+	public String index() {
+		return "index/index";
+	}
+	@RequestMapping("myPage")
+	public String myPage() {
+		return "index/myPage";
+	}
+	@RequestMapping("myPageLogin")
+	public String myPageLogin(HttpServletRequest request, HttpSession session) {
+		 
+		 return "myPage/login";
+	}
+}

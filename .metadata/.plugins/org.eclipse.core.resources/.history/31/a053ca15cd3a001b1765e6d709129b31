@@ -1,0 +1,16 @@
+package com.care.shopping.centercontroller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class CenterController {
+	@RequestMapping("notice")
+	public String notice() {
+		return "center/notice";
+	}
+	@RequestMapping("board")
+	public String board() {
+		return "center/board";
+	}
+}

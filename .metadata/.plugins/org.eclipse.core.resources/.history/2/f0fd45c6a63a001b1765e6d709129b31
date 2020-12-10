@@ -1,0 +1,10 @@
+package com.care.shopping.mypagedao;
+
+import org.apache.ibatis.annotations.Select;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MemberDAO {
+	@Select("select * from mypage where id=#{id} and pw=#{pw}")
+	public 
+}

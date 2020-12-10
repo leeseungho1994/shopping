@@ -11,9 +11,9 @@
 <div style="text-align: right; margin-right: 10px;">
 	<a href="#"><b>로그인</b></a>
 	<a href="#"><b>회원가입</b></a>
-	<a href="#"><b>마이페이지</b></a>
+	<a href="myPage"><b>마이페이지</b></a>
 	<a href="#"><b>장바구니</b></a>
-	<a href="#"><b>고객센터</b></a>
+	<a href="center"><b>고객센터</b></a>
 </div>
 <h1 style="text-align: center">index 페이지</h1><br>
 <hr>

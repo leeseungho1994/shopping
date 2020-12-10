@@ -1,0 +1,5 @@
+package com.care.shopping.config;
+
+public class ShoppingConfig {
+
+}

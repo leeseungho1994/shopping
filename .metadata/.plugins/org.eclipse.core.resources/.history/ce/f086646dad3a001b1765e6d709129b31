@@ -1,0 +1,20 @@
+package com.care.shopping.mypageservice;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.care.shopping.mypagedao.MyPageDAO;
+import com.care.shopping.mypagedto.MyPageDTO;
+
+@Service
+public class MyPageService {
+	@Autowired MyPageDAO dao;
+	public void loginCheck(HttpServletRequest request, HttpSession session) {
+		MyPageDTO d = dao.loginCheck(request.getParameter("id"), request.getParameter("pw"));
+		
+		System.out.println(d.getId());
+	}
+}

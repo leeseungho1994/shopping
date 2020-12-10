@@ -1,0 +1,5 @@
+package com.care.shopping.mypagedto;
+
+public class MyPageDTO {
+
+}

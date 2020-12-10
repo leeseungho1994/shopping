@@ -1,0 +1,8 @@
+package com.care.shopping.mypageservice;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MyPageService {
+	
+}
